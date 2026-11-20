@@ -1,0 +1,22 @@
+# Never commit secrets or unpublished hunt material
+*.env
+.env*
+secrets.md
+**/secrets/
+**/hunt-evidence/
+*.key
+*.pem
+id_rsa*
+keystore/
+mnemonic*.txt
+
+# Local PoC work that is not ready to publish
+scratch/
+private-notes/
+
+# Python / Foundry noise
+__pycache__/
+*.pyc
+out/
+cache/
+broadcast/
